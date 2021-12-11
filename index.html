@@ -2,6 +2,10 @@
 <html lang="en">
 
 <head>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        dataLayer.push({ 'visitorType': 'high-value' });
+    </script>
     <!-- Google Tag Manager -->
     <script>(function (w, d, s, l, i) {
             w[l] = w[l] || []; w[l].push({
@@ -59,7 +63,12 @@
                 </div>
             </div>
 
-            <a href="#" class="btn">Hire me</a>
+            <a href="hire.html" class="btn" target="_blank" onclick="dataLayer.push({
+                'hireMe': 'Virendra',
+                'Charges': 100,
+                'bookCategory1': 'Digital Marketing',
+                'bookCategory2': 'Web Developments'
+            });">Book details</a>>Hire me</a>
         </div>
     </section>
 
