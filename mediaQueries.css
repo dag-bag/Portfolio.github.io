@@ -99,32 +99,32 @@
 }
 
 @media (max-width: 902px) {
-  .services,
+  /* .services,
   .tools {
     height: 110vh;
-  }
+  } */
 }
 @media (max-width: 902px) {
-  .services,
+  /* .services,
   .tools {
     height: 170vh;
-  }
+  } */
 }
 @media (max-width: 707px) {
-  .services,
+  /* .services,
   .tools {
     height: 200vh;
-  }
+  } */
 }
 @media (max-width: 533px) {
-  .services,
+  /* .services,
   .tools {
     height: 220vh;
-  }
+  } */
 }
 @media (max-width: 467px) {
-  .services,
+  /* .services,
   .tools {
     height: 212vh;
-  }
+  } */
 }

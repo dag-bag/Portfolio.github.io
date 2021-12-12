@@ -277,6 +277,8 @@ p {
   color: white;
   height: 100vh;
   position: relative;
+  overflow-y: scroll;
+  overflow-x: hidden;
 }
 .services .maxWidth .servicesContent {
   display: flex;
