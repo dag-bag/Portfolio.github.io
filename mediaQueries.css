@@ -104,27 +104,47 @@
     height: 110vh;
   } */
 }
-@media (max-width: 902px) {
+@media (max-width: 961px) {
   /* .services,
   .tools {
     height: 170vh;
   } */
+  .teamHome {
+    overflow-x: hidden;
+    overflow-y: scroll;
+  }
+  .teamHome .maxWidth .TeamContent .left .text {
+    margin-top: 10rem;
+    margin-bottom: 1rem;
+  }
 }
 @media (max-width: 707px) {
   /* .services,
   .tools {
     height: 200vh;
   } */
+  .skillHome .maxWidth {
+    margin: auto 0 auto 1rem;
+  }
 }
 @media (max-width: 533px) {
   /* .services,
   .tools {
     height: 220vh;
   } */
+  .skillHome .maxWidth .skillsContent .left a {
+    font-size: 1.5rem;
+  }
 }
 @media (max-width: 467px) {
   /* .services,
   .tools {
     height: 212vh;
   } */
+  .skillHome .maxWidth .skillsContent .left p {
+    font-size: 1.2rem;
+  }
+  .maxWidth .title::after {
+    bottom: -30%;
+  }
 }

@@ -32,3 +32,14 @@ window.addEventListener("scroll", function () {
   // document.querySelector(".text3").classLsist.add("anime");
   // }S
 });
+// Text ANimation
+var typed = new Typed(".typing", {
+  strings: [
+    "Digital Marketer.",
+    "Web Developer.",
+    "Graphic Desginer.",
+    "Strategy Creator.",
+    "Leader.",
+  ],
+  typeSpeed: 100,
+});

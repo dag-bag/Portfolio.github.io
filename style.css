@@ -540,6 +540,9 @@ textarea:focus {
 .footer .maxWidth .FooterContent .card .box #submit:hover {
   background: none;
 }
+.footer .maxWidth .foooterMain p {
+  margin-bottom: 0;
+}
 @keyframes test {
   to {
     transform: translateX(-42rem);
@@ -661,9 +664,8 @@ textarea:focus {
   background-size: cover;
   background-attachment: fixed;
   height: 100vh;
-  min-height: 50rem;
+  /* min-height: 50rem; */
   color: #fff;
-  overflow: hidden;
 }
 .teamHome .maxWidth {
   margin: auto 0 auto 4rem;
