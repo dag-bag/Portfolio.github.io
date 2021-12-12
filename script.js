@@ -42,4 +42,5 @@ var typed = new Typed(".typing", {
     "Leader.",
   ],
   typeSpeed: 100,
+  loop: true,
 });
