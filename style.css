@@ -576,6 +576,8 @@ textarea:focus {
 /* Tools i use */
 .tools {
   height: 100vh;
+  overflow-x: hidden;
+  overflow-y: scroll;
 }
 .tools .maxWidth .toolsContent {
   display: flex;
