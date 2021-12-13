@@ -4,8 +4,7 @@
 <head>
     <script>
         window.dataLayer = window.dataLayer || [];
-
-
+        window.dataLayer.push({ 'visitorType': 'high-value' });
 
     </script>
     <!-- Google Tag Manager -->
@@ -256,9 +255,9 @@
     </footer>
     <script>
         const button = document.querySelector("#test1")
-        dataLayer.push({ 'visitorType': 'high-value' });
+
         button.addEventListener('click', () => {
-            dataLayer.push({
+            window.dataLayer.push({
                 'hireMe': 'Virendra',
                 'Charges': 100,
                 'bookCategory1': 'Digital Marketing',
