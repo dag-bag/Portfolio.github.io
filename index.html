@@ -4,7 +4,9 @@
 <head>
     <script>
         window.dataLayer = window.dataLayer || [];
-        dataLayer.push({ 'visitorType': 'high-value' });
+
+
+
     </script>
     <!-- Google Tag Manager -->
     <script>(function (w, d, s, l, i) {
@@ -65,12 +67,7 @@
                 </div>
             </div>
 
-            <a href="hire.html" class="btn" target="_blank" onclick="dataLayer.push({
-                'hireMe': 'Virendra',
-                'Charges': 100,
-                'bookCategory1': 'Digital Marketing',
-                'bookCategory2': 'Web Developments'
-            });">Hire me</a>
+            <a href="hire.html" class="btn test1" id="test1" target="_blank">Hire me</a>
         </div>
     </section>
 
@@ -257,9 +254,22 @@
             </div>
         </div>
     </footer>
+    <script>
+        const button = document.querySelector("#test1")
+        dataLayer.push({ 'visitorType': 'high-value' });
+        button.addEventListener('click', () => {
+            dataLayer.push({
+                'hireMe': 'Virendra',
+                'Charges': 100,
+                'bookCategory1': 'Digital Marketing',
+                'bookCategory2': 'Web Developments'
+            });
+        })
+    </script>
     <!-- AOs library -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
+
         AOS.init({
             offset: 400,
             duration: 1000,
