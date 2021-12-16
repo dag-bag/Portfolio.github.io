@@ -46,7 +46,7 @@
                 <li><a href="skills.html">Skills</a></li>
                 <li><a href="team.html">Team</a></li>
                 <li><a href="about.html">About</a></li>
-                <li><a href="services.html" onclick="ecommer()" id="eco">Services</a></li>
+                <li><a href="services.html" id="eco">Services</a></li>
                 <li><a href="#">Contact</a></li>
             </ul>
             <div class="menuBtn">
@@ -263,7 +263,7 @@
                 'bookCategory1': 'Digital Marketing',
                 'bookCategory2': 'Web Developments'
             });
-            serviceBtn.addEventListener('click', function ecommer() {
+            serviceBtn.addEventListener('click', () => {
                 window.dataLayer.push({ ecommerce: null });  // Clear the previous ecommerce object.
                 window.dataLayer.push({
                     'ecommerce': {
