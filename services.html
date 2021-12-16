@@ -6,21 +6,17 @@
 
         window.dataLayer = window.dataLayer || [];
         window.dataLayer.push({
-            event: 'eec.detail',
-            ecommerce: {
-                detail: {
-                    actionField: {
-                        list: 'Search Results'
-                    },
-                    products: [{
-                        id: 'product_id',
-                        name: 'MY PRODUCT',
-                        category: 'guides/google-tag-manager/enhanced-ecommerce',
-                        variant: 'Text',
-                        brand: 'SIMO AHAVA',
-                        dimension3: 'Ecommerce',
-                        metric5: 12,
-                        metric6: 1002
+
+            'ecommerce': {
+                'detail': {
+                    'actionField': { 'list': 'Apparel Gallery' },    // 'detail' actions have an optional list property.
+                    'products': [{
+                        'name': 'Triblend Android T-Shirt',         // Name or ID is required.
+                        'id': '12345',
+                        'price': '15.25',
+                        'brand': 'Google',
+                        'category': 'Apparel',
+                        'variant': 'Gray'
                     }]
                 }
             }
