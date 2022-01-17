@@ -8,6 +8,11 @@
 //   });
 // });
 
+const download = document.querySelector("#downloadBtn");
+download.addEventListener("click", () => {
+  datalayer.push({ donwloadValue: "50.00", currency: "INR" });
+});
+
 const menuBtn = document.querySelector(".menuBtn");
 
 menuBtn.addEventListener("click", function Btn() {
