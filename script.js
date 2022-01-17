@@ -8,14 +8,6 @@
 //   });
 // });
 
-window.dataLayer = window.dataLayer || [];
-
-const download = document.querySelector("#downloadBtn");
-download.addEventListener("click", () => {
-  datalayer.push({ donwloadValue: "50.00", currency: "INR" });
-  console.log("donwload ever donw sucress");
-});
-
 const menuBtn = document.querySelector(".menuBtn");
 
 menuBtn.addEventListener("click", function Btn() {

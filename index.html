@@ -269,6 +269,11 @@
 
         })
 
+        const download = document.querySelector("#downloadBtn");
+        download.addEventListener("click", () => {
+            window.datalayer.push({ 'donwloadValue': "50.00", 'currency': "INR" });
+
+        });
 
     </script>
     <!-- AOs library -->
