@@ -270,10 +270,16 @@
         })
 
         const download = document.querySelector("#downloadBtn");
-        download.addEventListener("click", () => {
-            window.datalayer.push({ 'donwloadValue': "50.00", 'currency': "INR" });
+        button.addEventListener('click', () => {
+            window.dataLayer.push({
+                'currency': 'INR',
+                'donwloadValue': 100,
 
-        });
+            });
+
+        })
+
+
 
     </script>
     <!-- AOs library -->
