@@ -91,7 +91,11 @@
                         Expedita aliquam id culpa dolorum dicta. Libero consequuntur labore voluptatem deleniti
                         obcaecati.</p>
 
-                    <a href="Virendra.docx" class="btn" download="Resume" target="_blank" id="downloadBtn">Download
+                    <a href="Virendra.docx" class="btn" download="Resume" target="_blank" id="downloadBtn" onclick="dataLayer.push({
+                        'bookCategory': 'fiction',
+                        'bookTitle': 'Cien años de soledad',
+                        'bookAuthor': 'Gabriel García Márquez'
+                    })" ;>Download
                         CV</a>
 
                 </div>
@@ -269,15 +273,11 @@
 
         })
 
-        const download = document.querySelector("#downloadBtn");
-        button.addEventListener('click', () => {
-            dataLayer.push({
-                'currency': 'INR',
-                'donwloadValue': 100,
 
-            });
 
-        })
+
+
+
 
 
 
